@@ -15,8 +15,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**  
- * ClassName:TestArraysAsList   
- * Function: TODO .    
+ * ClassName:TestArraysAsList
  * Date:     2020年3月8日 上午10:02:32   
  * @author   CHUNWU  
  * @version  0.1  

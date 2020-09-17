@@ -39,7 +39,6 @@ public class Employee {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "(码农： " + this.name + ", 敲砖钱:" + this.salary +")";
 	}
 	
