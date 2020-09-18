@@ -14,11 +14,11 @@ public class CloseStreamUtil {
      * 工具类 关闭流 可变参数： ... 只能放在形参的最后位置, 处理方式与数组一致
      */
     public static void closeStream(Closeable... io) {
-        test(io);
+        realClose(io);
 
     }
 
-    private static void test(Closeable[] io) {
+    private static void realClose(Closeable[] io) {
         for (Closeable temp : io) {
             if (null != temp) {
                 try {
@@ -34,7 +34,7 @@ public class CloseStreamUtil {
      * 使用泛型方法
      */
     public static <T extends Closeable> void closeAllStream(T... io) {
-        test(io);
+        realClose(io);
     }
 
 
